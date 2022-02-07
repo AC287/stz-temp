@@ -2322,8 +2322,9 @@ color: #DA291C;
 }
 .contact-phaddress {
   font-family: 'Questrial', sans-serif;
-  font-size: 12pt;
+  font-size: 16pt;
   color: #DA291C;
+  line-height: 25pt;
 }
 .contact-phaddress-ph {
   display: -webkit-box;
@@ -2335,8 +2336,10 @@ color: #DA291C;
   /* align-items: center; */
   justify-content: center;
 }
-.contact-phaddress-ph span {
-  padding: 0 10px 0 10px;
+.contact-phaddress-ph a {
+  font-weight: bold;
+  padding: 0 15px 0 15px;
+  text-decoration: none;
 }
 .contact-phaddress-address p {
   margin: 0;
@@ -3303,4 +3306,21 @@ a.search-catlink {
 
 .error-container {
   height: 70vh;
+}
+
+.product-temp-notes {
+  font-size: 14pt;
+  text-align: center;
+}
+
+.product-temp-notes a {
+  text-decoration: none;
+}
+
+.product-temp-notes-header {
+  margin-top: 20px;
+  font-family: 'bignoodletitlingregular';
+  /* font-weight: bold; */
+  font-size: 35pt;
+  color: #DA291C;
 }
