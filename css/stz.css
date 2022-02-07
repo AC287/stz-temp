@@ -3304,3 +3304,20 @@ a.search-catlink {
 .error-container {
   height: 70vh;
 }
+
+.product-temp-notes {
+  font-size: 14pt;
+  text-align: center;
+}
+
+.product-temp-notes a {
+  text-decoration: none;
+}
+
+.product-temp-notes-header {
+  margin-top: 20px;
+  font-family: 'bignoodletitlingregular';
+  /* font-weight: bold; */
+  font-size: 35pt;
+  color: #DA291C;
+}
